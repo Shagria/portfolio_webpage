@@ -1,0 +1,5 @@
+(567px)
+extra small (šířka okna do 767px)
+small (768–991)
+medium (992–1199)
+large (1200 a více)
