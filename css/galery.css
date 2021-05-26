@@ -20,8 +20,30 @@ body {
   font-size: 100%;
   line-height: 2em;
   background-color: var(--eerie-black);
+  margin:0;
 }
-
+.header{
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: var(--rich-black-fogra-39);
+}
+.homepage{
+  text-decoration: none;
+  color: var(--silver-chalice);
+}
+.fa-home:hover{
+  animation-name: rotation;
+  animation-duration: 1s;
+}
+@keyframes rotation{
+  25%{
+    transform:rotate(15deg);
+  }
+  75%{
+    transform:rotate(-15deg);
+  }
+}
 .grid {
   max-width: 60rem;
   margin: 20px auto;
