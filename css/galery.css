@@ -1,0 +1,45 @@
+:root {
+  /* main color pallete vars*/
+  --rich-black-fogra-39: #0b090aff;
+  --eerie-black: #161a1dff;
+  --blood-red: #660708ff;
+  --ruby-red: #a4161aff;
+  --carnelian: #ba181bff;
+  --imperial-red: #e5383bff;
+  --silver-chalice: #b1a7a6ff;
+  --light-gray: #d3d3d3ff;
+  --cultured: #f5f3f4ff;
+  --white: #ffffffff;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Itim", cursive;
+  font-size: 100%;
+  line-height: 2em;
+  background-color: var(--eerie-black);
+}
+
+.grid {
+  max-width: 60rem;
+  margin: 20px auto;
+  display: column;
+  columns: 4;
+  gap: 1em;
+}
+img {
+  width: 100%;
+}
+img:hover {
+  opacity: 0.5;
+  transition-duration: 0.15s;
+}
+@supports (grid-template-rows: masonry) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: masonry;
+  }
+}
