@@ -149,6 +149,7 @@ body {
 }
 
 /*Projects*/
+img
 
 /*Coding*/
 #coding {
@@ -166,7 +167,7 @@ body {
 #coding a,
 i {
   margin-top: 20px;
-  color: var(--light-gray);
+  color: var(--eerie-black);
 }
 #coding .fa-github:hover {
   opacity: 0.6;
